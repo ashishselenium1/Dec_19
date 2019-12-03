@@ -1,0 +1,17 @@
+# Created at 2019-12-03T08:25:58.577
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+# Created at 2019-12-03T08:26:00.037
+Unexpected IOException: 8,1,com.qtpselenium.rediff.testcases.DeletePortfolioTest,deletePortFolio(com.qtpselenium.rediff.testcases.DeletePortfolioTest),null,Cannot locate element with text: Z100\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-RTOOT5Q'\002C ip: '192.168.43.11'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.5'\000ADriver info: driver.version: unknown,null,Cannot locate element with text: Z100\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-RTOOT5Q'\002C ip: '192.168.43.11'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.5'\000ADriver info: driver.version: unknown,DeletePortfolioTest.deletePortFolio:35 \00BB NoSuchElement Cannot locate element w...,org.openqa.selenium.NoSuchElementException: \000ACannot locate element with text: Z100\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-RTOOT5Q'\002C ip: '192.168.43.11'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.5'\000ADriver info: driver.version: unknown\000A\0009at com.qtpselenium.rediff.testcases.DeletePortfolioTest.deletePortFolio(DeletePortfolioTest.java:35)\000A
+
+
+# Created at 2019-12-03T08:26:05.835
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+
